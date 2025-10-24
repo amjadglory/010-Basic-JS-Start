@@ -18,8 +18,8 @@ Example 2
 Input: 9 Output No 
 */
 /*
-var num = Number(window.prompt("write a number"));
-if (num % 3 === 0 && num % 4 === 0) {
+var num2 = Number(window.prompt("write a number"));
+if (num2 % 3 === 0 && num2 % 4 === 0) {
   console.log("yes");
 } else {
   console.log("no");
@@ -36,12 +36,12 @@ Input: 10 7
 Output: 10
 */
 /*
-var num1 = Number(window.prompt("write a number"));
-var num2 = Number(window.prompt("write a number"));
-if(num1 > num2){
-    console.log(num1 + 'is bigger');
+var num3 = Number(window.prompt("write a number"));
+var num4 = Number(window.prompt("write a number"));
+if(num3 > num4){
+    console.log(num3 + 'is bigger');
     }else{
-        console.log(num2 + 'is bigger');
+        console.log(num4 + 'is bigger');
 }
 */
 
@@ -56,8 +56,8 @@ Input: 10
 Output positive
 */
 /*
-var num = Number(window.prompt("write a number"));
-if (num < 0) {
+var num5 = Number(window.prompt("write a number"));
+if (num5 < 0) {
     console.log("negative");
     } else {
         console.log("positive");
@@ -79,22 +79,22 @@ Max element = 9
 Min element = 3
 */
 /*
-var num1 = Number(window.prompt("write a number"));
-var num2 = Number(window.prompt("write a number"));
-var num3 = Number(window.prompt("write a number"));
-if (num1 > num2 && num1 > num3) {
-  console.log(`max number is ${num1}`);
-} else if (num2 > num1 && num2 > num3) {
-  console.log(`max number is ${num2}`);
+var num6 = Number(window.prompt("write a number"));
+var num7 = Number(window.prompt("write a number"));
+var num8 = Number(window.prompt("write a number"));
+if (num6 > num7 && num6 > num8) {
+  console.log(`max number is ${num6}`);
+} else if (num7 > num6 && num7 > num8) {
+  console.log(`max number is ${num7}`);
 } else {
-  console.log(`max number is ${num3}`);
+  console.log(`max number is ${num8}`);
 }
-if (num1 < num2 && num1 < num3) {
-  console.log(`min number is ${num1}`);
-} else if (num2 < num1 && num2 < num3) {
-  console.log(`min number is ${num2}`);
+if (num6 < num7 && num6 < num8) {
+  console.log(`min number is ${num6}`);
+} else if (num7 < num6 && num7 < num8) {
+  console.log(`min number is ${num7}`);
 } else {
-  console.log(`min number is ${num3}`);
+  console.log(`min number is ${num8}`);
 }
  */
 
@@ -109,11 +109,11 @@ Input: 7
  Output: odd 
 */
 /*
-var num = Number(window.prompt("write a number"));
-if (num % 2 == 0) {
-  console.log(`nember ${num} is even`);
+var num9 = Number(window.prompt("write a number"));
+if (num9 % 2 == 0) {
+  console.log(`nember ${num9} is even`);
 } else {
-  console.log(`nember ${num} is odd`);
+  console.log(`nember ${num9} is odd`);
 }
 */
 
@@ -144,8 +144,8 @@ Example Input 5
 Output 1, 2, 3, 4, 5
 */
 /*
-var num = Number(window.prompt("write a number"));
-for(var i = 1 ; i <= num ; i++ ){
+var num10 = Number(window.prompt("write a number"));
+for(var i = 1 ; i <= num10 ; i++ ){
     console.log(i);
 }
 */
@@ -158,9 +158,9 @@ Outputs:
 5 10 15 20 25 30 35 40 45 50 55 60
 */
 /*
-var num = Number(window.prompt("write a number"));
+var num11 = Number(window.prompt("write a number"));
 for(var i = 1 ; i <= 12 ; i++ ){
-    console.log(num * i);
+    console.log(num11 * i);
     }
 */
 
@@ -171,8 +171,8 @@ Example:
 Input: 15 
 */
 /*
-var num = Number(window.prompt("write a number"));
-for( var i = 0 ; i <= num ; i += 2){
+var num12 = Number(window.prompt("write a number"));
+for( var i = 0 ; i <= num12 ; i += 2){
         console.log(i);
 }
 */
@@ -185,11 +185,11 @@ Output:  64
 Hint how to calculate 4^3 = 4 * 4 * 4 =64
 */
 /*
-var num1 = Number(window.prompt("write a number"));
-var num2 = Number(window.prompt("write a number"));
+var num13 = Number(window.prompt("write a number"));
+var num14 = Number(window.prompt("write a number"));
 var power = 1;
-for (var i = 0; i < num2; i++) {
-  power *= num1;
+for (var i = 0; i < num14; i++) {
+  power *= num13;
 }
 console.log(power);
  */
@@ -211,18 +211,18 @@ Output:-.Total marks = 435
    Percentage =87 
 */
 /*
-var num1 = Number(window.prompt("write a number"));
-var num2 = Number(window.prompt("write a number"));
-var num3 = Number(window.prompt("write a number"));
-var num4 = Number(window.prompt("write a number"));
-var num5 = Number(window.prompt("write a number"));
+var num15 = Number(window.prompt("write a number"));
+var num16 = Number(window.prompt("write a number"));
+var num17 = Number(window.prompt("write a number"));
+var num18 = Number(window.prompt("write a number"));
+var num19 = Number(window.prompt("write a number"));
 
-var total = num1+num2+num3+num4+num5;
-console.log(total);
+var total = num15 + num16 + num17 + num18 + num19;
+console.log('total ' + total);
 var avr = total / 5;
-console.log(avr);
+console.log('avr '+avr);
 var percentage = (avr / 100) * 100;
-console.log(percentage);
+console.log('percentage '+percentage);
 */
 
 /* assignment 13 
@@ -233,15 +233,15 @@ Input: - Month Number: 1
        Output:-.  Days in Month: 31 
 */
 /*
-var num = Number(window.prompt("write a number"));
-if (num == 4 || num == 6 || num == 9 || num == 11) {
-  console.log(`month number ${num} has 30 days`);
-} else if (num == 2) {
-  console.log(`month number ${num} has 29 or 28 days`);
-} else if (num > 12) {
+var num20 = Number(window.prompt("write a number"));
+if (num20 == 4 || num20 == 6 || num20 == 9 || num20 == 11) {
+  console.log(`month number ${num20} has 30 days`);
+} else if (num20 == 2) {
+  console.log(`month number ${num20} has 29 or 28 days`);
+} else if (num20 > 12) {
   console.log("that's a big year man");
 } else {
-  console.log(`month number ${num} has 31 days`);
+  console.log(`month number ${num20} has 31 days`);
 }
  */
 
@@ -287,19 +287,19 @@ if (totalPercentage >= 0 && totalPercentage < 40) {
 Write a program to print total number of days in month
 */
 /*
-var num = Number(window.prompt("write a number"));
+var num21 = Number(window.prompt("write a number"));
 switch (true) {
-  case num == 4 || num == 6 || num == 9 || num == 11:
-    console.log(`month number ${num} has 30 days`);
+  case num21 == 4 || num21 == 6 || num21 == 9 || num21 == 11:
+    console.log(`month number ${num21} has 30 days`);
     break;
-  case num == 2:
-    console.log(`month number ${num} has 29 or 28 days`);
+  case num21 == 2:
+    console.log(`month number ${num21} has 29 or 28 days`);
     break;
-  case num > 12:
+  case num21 > 12:
     console.log(`that's a big year`);
     break;
   default:
-    console.log(`month number ${num} has 31 days`);
+    console.log(`month number ${num21} has 31 days`);
 };
 */
 
@@ -307,13 +307,13 @@ switch (true) {
 Write a program to check whether an alphabet is vowel or consonant 
 */
 /*
-var char = window.prompt("write a character");
+var char2 = window.prompt("write a character");
 switch(true){
-    case char == 'a' || char == 'e' || char == 'I' || char == 'o' || char == 'u':
-    console.log(`character ${char} is vowel`);
+    case char2 == 'a' || char2 == 'e' || char2 == 'I' || char2 == 'o' || char2 == 'u':
+    console.log(`character ${char2} is vowel`);
     break;
     default :
-    console.log(`character ${char} is consonant`);
+    console.log(`character ${char2} is consonant`);
     break;
 };
 */
@@ -322,14 +322,14 @@ switch(true){
  Write a program to find maximum between two numbers  
  */
 /*
-var num1 = Number(window.prompt("write a number"));
-var num2 = Number(window.prompt("write a number"));
+var num22 = Number(window.prompt("write a number"));
+var num23 = Number(window.prompt("write a number"));
 switch(true){
-    case num1 > num2:
+    case num22 > num23:
         console.log(`number ${num1} is bigger`);
         break;
         default:
-        console.log(`number ${num2} is bigger`);
+        console.log(`number ${num23} is bigger`);
 };
 */
 
@@ -337,13 +337,13 @@ switch(true){
 Write a program to check whether a number is even or odd
 */
 /*
-var num = Number(window.prompt("write a number"));
+var num24 = Number(window.prompt("write a number"));
 switch(true){
-    case num % 2 == 0:
-        console.log(`number ${num} is even`);
+    case num24 % 2 == 0:
+        console.log(`number ${num24} is even`);
         break;
         default:
-        console.log(`number ${num} is odd`);
+        console.log(`number ${num24} is odd`);
 };
 */
 
@@ -351,12 +351,12 @@ switch(true){
 Write a program to check whether a number is positive or negative or zero
 */
 /*
-var num = Number(window.prompt("write a number"));
+var num25 = Number(window.prompt("write a number"));
 switch (true) {
-  case num == 0:
+  case num25 == 0:
     console.log("zero");
     break;
-  case num < 0:
+  case num25 < 0:
     console.log("negative");
     break;
     default:
@@ -368,21 +368,21 @@ switch (true) {
 Write a program to create Simple Calculator
 */
 /*
-var num1 = Number(window.prompt("write a number"));
+var num26 = Number(window.prompt("write a number"));
 var arithOpe = window.prompt("write an arithmatice operator");
-var num2 = Number(window.prompt("write a number"));
+var num27 = Number(window.prompt("write a number"));
 switch (true) {
   case arithOpe == "+":
-    console.log(num1 + num2);
+    console.log(num26 + num27);
     break;
   case arithOpe == "-":
-    console.log(num1 - num2);
+    console.log(num26 - num27);
     break;
   case arithOpe == "*":
-    console.log(num1 * num2);
+    console.log(num26 * num27);
     break;
   case arithOpe == "/":
-    console.log(num1 / num2);
+    console.log(num26 / num27);
     break;
 }
 */
